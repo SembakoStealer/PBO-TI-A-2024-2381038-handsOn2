@@ -27,7 +27,7 @@ public class TUUUUUGAs {
             nomorTergede = nomor[2];
         }
 
-        System.out.println("Nomor Tergede adalah : " + nomorTergede);
+        System.out.println("Nomor Tergede adalahh : " + nomorTergede);
 
 
     }
