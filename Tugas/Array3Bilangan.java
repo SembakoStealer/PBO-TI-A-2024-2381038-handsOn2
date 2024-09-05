@@ -2,7 +2,7 @@ package Tugas;
 
 import java.util.Scanner;
 
-public class TUUUUUGAs {
+public class Array3Bilangan {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
