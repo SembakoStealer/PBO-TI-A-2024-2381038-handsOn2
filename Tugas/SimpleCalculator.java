@@ -15,24 +15,24 @@ public class SimpleCalculator {
         numero[1] = masukin.nextInt();
 
         System.out.println("Pilih angka mau diapain ( +, -, *, /, % )");
-        String pilihan = masukin.next();
+        String pilihanOperand = masukin.next();
 
-        int jawab;
-        switch (pilihan){
+        int hasilPerhitungan;
+        switch (pilihanOperand){
             case "+":
-                jawab = numero[0] + numero[1];
+                hasilPerhitungan = numero[0] + numero[1];
                 break;
             case "-":
-                jawab = numero[0] - numero[1];
+                hasilPerhitungan = numero[0] - numero[1];
                 break;
             case "*":
-                jawab = numero[0] * numero[1];
+                hasilPerhitungan = numero[0] * numero[1];
                 break;
             case "/":
-                jawab = numero[0] / numero[1];
+                hasilPerhitungan = numero[0] / numero[1];
                 break;
             case "%":
-            jawab = numero[0] % numero[1];
+                hasilPerhitungan = numero[0] % numero[1];
                 break;
             default:
 
@@ -40,7 +40,7 @@ public class SimpleCalculator {
             return;
         }
 
-        System.out.println("Jawabannya adalah : " + jawab);
+        System.out.println("Jawabannya adalah : " + hasilPerhitungan);
 
     }
 }
